@@ -241,7 +241,7 @@ trait MakesAssertions
     }
 
     /** {@inheritdoc} */
-    public function assertValue($selector, $value)
+    public function assertValue($field, $value)
     {
         $this->actionCollector->collect(__FUNCTION__, func_get_args(), $this);
 
